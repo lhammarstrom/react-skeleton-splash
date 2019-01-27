@@ -1,7 +1,7 @@
 {
-    "name": "react-loading-placeholder",
+    "name": "react-skeleton-splash",
     "version": "1.0.0",
-    "description": "A skeleton placeholder component for React which is fully customisable.",
+    "description": "A skeleton splash component for React which is fully customisable.",
     "main": "build/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,20 +10,21 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lhammarstrom/react-loading-placeholder.git"
+        "url": "git+https://github.com/lhammarstrom/react-skeleton-splash.git"
     },
     "keywords": [
         "skeleton",
         "react",
         "loading",
-        "placeholder"
+        "placeholder",
+        "splash"
     ],
     "author": "Lennart Hammarström",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/lhammarstrom/react-loading-placeholder/issues"
+        "url": "https://github.com/lhammarstrom/react-skeleton-splash/issues"
     },
-    "homepage": "https://github.com/lhammarstrom/react-loading-placeholder#readme",
+    "homepage": "https://github.com/lhammarstrom/react-skeleton-splash#readme",
     "dependencies": {
         "react": "^16.7.0",
         "react-dom": "^16.7.0",

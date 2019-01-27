@@ -23,7 +23,7 @@ const Wave = styled.div`
     background-repeat: no-repeat;
 `;
 
-export default function Placeholder({
+export default function Skeleton({
     style = { height: '100%', width: '100%', borderRadius: 5 },
     baseColor = '#f4f4f4',
     shineColor = '#e5e5e5',
