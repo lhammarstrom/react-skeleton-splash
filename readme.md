@@ -4,7 +4,7 @@
 ![](https://img.shields.io/npm/dt/react-skeleton-splash.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> Check out my [sandbox](https://codesandbox.io/s/pjmwrpo47x) 🦄
+[![Edit React Skeleton Splash](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/pjmwrpo47x)
 
 As a frontend developer I have always thought that my designs were missing something. Loading screens just didn't ever line up with how I pictured them in my mind. I tried everyhting, loading bars, spinners, inspirational messages with themed backgrounds but it still didn't seem right.
 
