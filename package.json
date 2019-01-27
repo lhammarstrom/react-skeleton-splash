@@ -1,0 +1,45 @@
+{
+    "name": "react-loading-placeholder",
+    "version": "1.0.0",
+    "description": "A skeleton placeholder component for React which is fully customisable.",
+    "main": "build/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lhammarstrom/react-loading-placeholder.git"
+    },
+    "keywords": [
+        "skeleton",
+        "react",
+        "loading",
+        "placeholder"
+    ],
+    "author": "Lennart Hammarström",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lhammarstrom/react-loading-placeholder/issues"
+    },
+    "homepage": "https://github.com/lhammarstrom/react-loading-placeholder#readme",
+    "dependencies": {
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0",
+        "styled-components": "^4.1.3",
+        "webpack": "^4.29.0"
+    },
+    "peerDependencies": {
+        "react": "^16.7.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.0.0",
+        "babel-plugin-transform-object-rest-spread": "^6.23.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.5.1",
+        "webpack-cli": "^3.2.1"
+    }
+}
