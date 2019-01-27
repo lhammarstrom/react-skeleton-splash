@@ -8,9 +8,9 @@
 
 As a frontend developer I have always thought that my designs were missing something. Loading screens just didn't ever line up with how I pictured them in my mind. I tried everyhting, loading bars, spinners, inspirational messages with themed backgrounds but it still didn't seem right.
 
-But one faithful day while I was reading articles on the intertubular speedway of information (the internet) I came across [this article about skeleton screen](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a) and boyo did it change how I saw and understood loading screens. Here's my favorite part
+But one faithful day while I was reading articles on the intertubular speedway of information (the internet) I came across [this article about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a) and boyo did it change how I saw and understood loading screens. Here's my favorite part
 
-> *Skeleton screens (as splash screens), when used to indicate that a screen is loading, are perceived as being shorter in duration when compared against a blank screen (our control) and a spinner — but not by much*
+> *Skeleton screens (as splash screens), when used to indicate that a screen is loading, are perceived as being shorter in duration when compared against a blank screen (our control) and a spinner*
 
 Isn't that something? So I began incorporating them into my design and what do you know, things just started to line up. My designs felt more performant and best of all: no longer was there awkward margin- / padding-issues when a screen was finished loading!
 
