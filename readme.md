@@ -1,6 +1,7 @@
 # React Skeleton Splash 🦄
 
 ![](https://img.shields.io/github/issues-raw/lhammarstrom/react-skeleton-splash.svg)
+![](https://img.shields.io/npm/dt/react-skeleton-splash.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 As a frontend developer I have always thought that my designs were missing something. Loading screens just didn't ever line up with how I pictured them in my mind. I tried everyhting, loading bars, spinners, inspirational messages with themed backgrounds but it still didn't seem right.
@@ -56,79 +57,13 @@ export default function Skeleton({
 }
 ```
 
-Then to prove its 🦄 I then wrote an implentation with [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) to see it working in action
+Then to prove its 🦄 (read awesomeness) I wrote an implentation with [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html). To see it working in action go to my [sandbox page for it](https://codesandbox.io/s/pjmwrpo47x) and use it!
 
-```
-import React from 'react';
-import Loader from 'react-skeleton-splash';
-import { holderStyle, getRandomItems, imageLoaderStyle, getRandomTextStyle } from './defaults';
+# Contribution
 
-export default function () {
-    const items = getRandomItems();
-    return (
-        <div style={holderStyle}>
-            <Loader style={imageLoaderStyle} />
-            {items.map(id => (
-                <Loader
-                    key={`loading-item-${id}`}
-                    style={getRandomTextStyle()}
-                />
-            ))}
-        </div>
-    );
-}
-```
+If you'd like to see changes, submit a PR or send me an issue and I'll get to it and fix it!
 
-I split the code up with the helpers in a different file so you could actually understand the index-component.
+# Acknowledgements
 
-```
-const widths = [
-    '15%',
-    '25%',
-    '35%',
-    '45%',
-    '55%',
-    '65%',
-    '75%',
-    '85%',
-    '95%',
-    '100%',
-];
-
-export const holderStyle = {
-    width: '600px',
-    margin: '0 auto',
-};
-
-const imageHeight = '70px';
-export const imageLoaderStyle = {
-    marginTop: '15px',
-    height: imageHeight,
-    width: imageHeight,
-    borderRadius: imageHeight,
-};
-
-export const textLoaderStyle = {
-    marginTop: '15px',
-    height: '14px',
-    borderRadius: '5px',
-};
-
-function getRandomWidth() {
-    const index = Math.floor(Math.random() * widths.length);
-    return widths[index];
-}
-
-export function getRandomTextStyle() {
-    return { ...textLoaderStyle, width: getRandomWidth() };
-}
-
-export function getRandomItems() {
-    const numberOfItems = Math.floor(Math.random() * 15) + 1;
-    const items = [...Array(numberOfItems).keys()];
-
-    return items;
-}
-```
-
-So what can you do with this? Copy it, use it, show your boss, learn, anything!
+* [Styled Components](https://github.com/styled-components/styled-components)
+* [Everything you need to know about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a)
